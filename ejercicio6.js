@@ -19,5 +19,22 @@ var tasks = [
     }
 ];
 
-tasks.forEach(name => console.log(name));
+
+// Con forEach
+
+const nombresEach = [];
+
+tasks.forEach((task) => nombresEach.push(task.name));
+
+console.log(nombresEach);
+
+
+/// Con .map
+
+const nombresMap = tasks.map(function (task) {
+    return task.name;
+});
+
+console.log(nombresMap);
+
 

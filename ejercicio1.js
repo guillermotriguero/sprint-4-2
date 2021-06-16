@@ -33,7 +33,7 @@ const toCelsius = (fahrenheit) => {
 
 const padZeros = (num, TotalLen) => {
     var numStr = num.toString();
-    var numZeros = totalLen - numStr.length;
+    var numZeros = TotalLen - numStr.length;
     for (var i = 1; i <= numZeros; i++) {
         numStr = "0" + numStr;
     }
