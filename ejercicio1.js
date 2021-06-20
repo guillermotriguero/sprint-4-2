@@ -1,6 +1,3 @@
-// POR REVISAR LAS FUNCIONES
-
-
 // 1
 
 // function multiply(num1, num2) {

@@ -14,7 +14,7 @@ const num2 = parseInt(prompt("Dime otro nº")); 7
 
 let tabla = "";
 
-for (i = 1; num2 > i; i++) {
+for (i = 1; num2 >= i; i++) {
     let resultado = num1 * i;
     tabla += num1 + " x " + i + " = " + resultado + "\n";
 }
